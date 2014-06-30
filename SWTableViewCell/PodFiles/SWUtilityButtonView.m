@@ -112,7 +112,7 @@
                                                                        views:NSDictionaryOfVariableBindings(precedingView)]];
     }
 
-    self.widthConstraint.constant = (kUtilityButtonWidthDefault * utilityButtons.count);
+    self.widthConstraint.constant = ((_parentCell.utilityButtonWidth > 0 ? _parentCell.utilityButtonWidth : kUtilityButtonWidthDefault) * utilityButtons.count);
     
     [self setNeedsLayout];
 
