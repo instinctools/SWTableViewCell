@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Chris Wendel. All rights reserved.
 //
 
+#import "SWTableViewCell.h"
 #import "SWUtilityButtonView.h"
 #import "SWUtilityButtonTapGestureRecognizer.h"
 
